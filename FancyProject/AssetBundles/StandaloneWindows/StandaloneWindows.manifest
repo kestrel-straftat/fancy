@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 676326274
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: fancy
+      Dependencies: {}

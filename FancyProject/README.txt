@@ -1,0 +1,1 @@
+This directory contains the unity project for Fancy, which contains files related to the mod's assetbundle & the editor tools for cosmetic creation, as well as a few tests of the tools.
