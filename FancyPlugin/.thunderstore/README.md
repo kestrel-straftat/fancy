@@ -1,6 +1,6 @@
 # Fancy
 
-This mod is a custom cosmetic loader; it loads bundles of custom cosmetics to let you use them ingame! **This mod does
+This mod is a custom cosmetic loader- it loads bundles of custom cosmetics to let you use them ingame! **This mod does
 not contain any custom cosmetics itself.** If you'd like a bundle to get started, check out [ImmortalChickens' cosmetics 
 bundle](https://thunderstore.io/c/straftat/p/ImmortalChickens/Straftat_Cosmetics_Bundle_IC/)!
 
