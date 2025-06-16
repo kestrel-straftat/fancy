@@ -1,4 +1,4 @@
-Hii! Welcome to the Fancy custom cosmetics sdk (v1.0.8)! This file contains important information on how to use the sdk to create your own custom cosmetics.
+Hii! Welcome to the Fancy custom cosmetics sdk (v1.0.0)! This file contains important information on how to use the sdk to create your own custom cosmetics.
 
 The two key GameObjects used by the sdk are:
 
