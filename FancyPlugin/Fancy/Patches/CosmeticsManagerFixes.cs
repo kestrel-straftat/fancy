@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Fancy.Patches;
 
+// TODO Remove in 4p update~ patched
 [HarmonyPatch(typeof(CosmeticsManager))]
 public static class CosmeticsManagerFixes
 {
