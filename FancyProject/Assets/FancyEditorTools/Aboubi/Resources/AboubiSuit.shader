@@ -2,6 +2,8 @@ Shader "AboubiSuit"
 {
 	Properties
 	{
+		_ASEOutlineColor( "Outline Color", Color ) = (0.58,0.67,1,1)
+		_ASEOutlineWidth( "Outline Width", Float ) = 0
 		_MainTex("Diffuse", 2D) = "white" {}
 		_Metallic("Metallic", Float) = 0
 		_Smoothness("Smoothness", Float) = 0
@@ -16,6 +18,33 @@ Shader "AboubiSuit"
 
 	SubShader
 	{
+		Tags{ }
+		Cull Front
+		CGPROGRAM
+		#pragma target 3.0
+		#pragma surface outlineSurf Lambert
+		#pragma vertex outlineVertex
+
+		struct Input {
+			half filler;
+		};
+
+		float4 _ASEOutlineColor;
+		float _ASEOutlineWidth;
+
+		void outlineVertex(inout appdata_full v)
+		{
+			v.vertex.xyz += (v.normal * _ASEOutlineWidth);
+		}
+		
+		void outlineSurf( Input i, inout SurfaceOutput o )
+		{
+			o.Emission = _ASEOutlineColor.rgb;
+			o.Alpha = 1;
+		}
+		
+		ENDCG
+		
 		Tags{ "RenderType" = "Opaque"  "Queue" = "Geometry+0" "IsEmissive" = "true"  }
 		Cull Back
 		CGPROGRAM
