@@ -51,6 +51,10 @@
     <None Include=".thunderstore\**" />
     <EmbeddedResource Include="Fancy\Resources\Bundles\**" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Fancy\Patches\" />
+  </ItemGroup>
 
   <Target Name="CopyBundle" BeforeTargets="PreBuildEvent">
     <Copy SourceFiles="..\FancyProject\AssetBundles\StandaloneWindows\fancy" DestinationFolder="Fancy\Resources\Bundles\" />
