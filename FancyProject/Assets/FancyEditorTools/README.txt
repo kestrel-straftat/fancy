@@ -1,9 +1,9 @@
-Hii! Welcome to the Fancy custom cosmetics sdk (v1.0.0)! This file contains important information on how to use the sdk to create your own custom cosmetics.
+Hii! Welcome to the Fancy custom cosmetics sdk (v1.0.1)! This file contains important information on how to use the sdk to create your own custom cosmetics.
 
 The two key GameObjects used by the sdk are:
 
-- Cosmetic References. These are an GameObjects that contain information about each cosmetic in your bundle (metadata about the cosmetic, as well as the materials/prefabs that make up your cosmetic)
-- Cosmetic Bundle Manifest. these are the root GameObject of a cosmetic bundle. They contain important metadata about the bundle, as well as a list of Cosmetic References that the bundle will contain when built
+- Cosmetic References. These are GameObjects that contain information about each cosmetic in your bundle (metadata about the cosmetic, as well as the materials/prefabs that make up your cosmetic)
+- The Cosmetic Bundle Manifest. this is the root GameObject of a cosmetic bundle. It contains important metadata about the bundle, as well as a list of Cosmetic References that the bundle will contain when built
 
 Some instructions on setting up and building your first bundle to get you started:
 
